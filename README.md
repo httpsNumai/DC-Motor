@@ -3,11 +3,21 @@
 In this repository I will explain how I made a DC motor spins in both directions
 
 # Step One : Connections 
-## 1- Arduino Uno GND to GND port in H Bridge
-## 2- Positive terminal of the 9V battery to the +12V terminal on the H bridge
-## 3- Negative terminal of the 9V battery to the GND terminal on the H bridge
-## 4- DC Motor connected to H bridge in OUT3, OUT4
-## 5- H bridge IN1, IN2 connected to Arduino Uno digital pins 7,6
+Connect the components as follows:
+
+## Arduino Uno:
+
+Connect the GND pin to the GND port on the H Bridge.
+## Power Supply:
+
+Connect the positive terminal of a 9V battery to the +12V terminal on the H Bridge.
+Connect the negative terminal of the 9V battery to the GND terminal on the H Bridge.
+## DC Motor:
+
+Connect the DC motor to OUT3 and OUT4 on the H Bridge.
+## H Bridge and Arduino Uno:
+
+Connect IN1 and IN2 of the H Bridge to digital pins 7 and 6 on the Arduino Uno.
 
 # Step Two : Coding
 
